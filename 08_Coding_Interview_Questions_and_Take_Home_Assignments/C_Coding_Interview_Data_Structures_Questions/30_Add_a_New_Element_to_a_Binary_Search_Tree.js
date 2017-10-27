@@ -45,12 +45,12 @@ function BinarySearchTree() {
                     // I really don't know what this means.
                     return null;
                 }
-            }
+            };
             console.log(currentNode);
             // recursive function call;s
             return findSpot(currentNode);
         }
-    }
+    };
     
     // change code above this line
 }
