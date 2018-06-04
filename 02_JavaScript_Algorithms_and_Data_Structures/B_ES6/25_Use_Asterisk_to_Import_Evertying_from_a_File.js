@@ -1,5 +1,1 @@
-import * as myStringModule from "capitalize_strings"
-
-myStringModule.capitalize("foo");
-myStringModule.lowercase("Foo");
-
+import * as myStringModule from "capitalize_strings";
