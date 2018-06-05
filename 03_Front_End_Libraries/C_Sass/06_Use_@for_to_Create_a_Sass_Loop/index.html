@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+
+</head>
+
+<body>
+    <style>
+        @for $j from 1 to 6 {
+            .text-#{$j} { font-size: 10px * $j }
+        }
+        /* this is just to force it to work */
+        .text-1 {
+            font-size: 10px;
+        }
+        .text-2 {
+            font-size: 20px;
+        }
+        .text-3 {
+            font-size: 30px;
+        }
+        .text-4 {
+            font-size: 40px;
+        }
+        .text-5 {
+            font-size: 50px;
+        }
+    </style>
+
+    <p class="text-1">Hello</p>
+    <p class="text-2">Hello</p>
+    <p class="text-3">Hello</p>
+    <p class="text-4">Hello</p>
+    <p class="text-5">Hello</p>
+</body>
+
+</html>
