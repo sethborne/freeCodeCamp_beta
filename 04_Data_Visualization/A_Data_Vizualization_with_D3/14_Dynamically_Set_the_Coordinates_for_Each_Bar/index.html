@@ -22,11 +22,11 @@
             .data(dataset)
             .enter()
             .append("rect")
-            .attr("x", (d, i) => 
+            .attr("x", (d, i) => {
                 // Add your code below this line
-                i * 30
+                return i * 30
                 // Add your code above this line
-            )
+            })
             .attr("y", 0)
             .attr("width", 25)
             .attr("height", 100);
