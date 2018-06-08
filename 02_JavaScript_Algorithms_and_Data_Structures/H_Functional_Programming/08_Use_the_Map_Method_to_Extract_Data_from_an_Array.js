@@ -116,9 +116,6 @@ var watchList = [
 // Add your code below this line
 
 var rating = [];
-// for (var i = 0; i < watchList.length; i++) {
-//     rating.push({ title: watchList[i]["Title"], rating: watchList[i]["imdbRating"] });
-// }
 
 let newArray = [...watchList];
 var newRating = newArray.map(function(item){
