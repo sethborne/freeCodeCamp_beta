@@ -1,7 +1,6 @@
 function Bird() {
-    // this.weight = 15;
     let weight = 15;
-    this.getWeight = function(){
+    this.getWeight = function () {
         return weight;
     }
 }
