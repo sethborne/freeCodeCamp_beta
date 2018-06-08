@@ -115,13 +115,6 @@ var watchList = [
 
 // Add your code below this line
 
-// let newArray = [...watchList];
-// for(var i = 0; i < newArray.length; i += 1){
-    //     if(newArray[i]["imdbRating"] >= 8.0 ){
-        //         filteredList.push({ title: newArray[i]["Title"], rating: newArray[i]["imdbRating"]})
-        //     }
-        // }
-        // console.log(filteredList);
 // ES5
 var filteredList = watchList.filter(function (arrItem){
     console.log("FILTER - ES5");
@@ -130,7 +123,7 @@ var filteredList = watchList.filter(function (arrItem){
     }
 }).map(function (fArrItem){
     console.log("MAP - ES5");
-    objItem = { title: fArrItem.Title, rating: fArrItem.imdbRating };
+    let objItem = { title: fArrItem.Title, rating: fArrItem.imdbRating };
     return objItem;
 });
         
