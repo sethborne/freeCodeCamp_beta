@@ -1,0 +1,26 @@
+{
+	"name": "fcc-learn-npm-package-json",
+	"dependencies": {
+		"package-name": "version",
+		"express": "^4.14.0",
+		"moment": "^2.10.2"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engines": {
+		"node": "4.4.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://idontknow/todo.git"
+	},
+	"author": "Seth Borne",
+	"description": "A Project to Test how to Use package.json",
+	"keywords": [
+		"package", "json", "Node", "npm", "freecodecamp"
+	],
+	"license": "MIT",
+	"version": "0.4.2"
+}
