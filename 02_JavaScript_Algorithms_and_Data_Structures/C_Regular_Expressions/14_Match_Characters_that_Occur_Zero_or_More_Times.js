@@ -1,4 +1,10 @@
-let starWars = "Star Wars";
-let starWarsRegex = /Star Wars.*/; 
+// let starWars = "Star Wars";
+// let starWarsRegex = /Star Wars.*/; 
+// // Change this line
+// let result = starWars.match(starWarsRegex);
+
+let chewieQuote = "Aaaaaaaaaaaaaaaarrrgh!";
+let chewieRegex = /Aa*/; 
 // Change this line
-let result = starWars.match(starWarsRegex);
+let result = chewieQuote.match(chewieRegex);
+console.log(result);
