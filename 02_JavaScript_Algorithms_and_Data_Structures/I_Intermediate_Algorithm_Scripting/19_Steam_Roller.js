@@ -5,7 +5,8 @@ function steamrollArray(inputArray) {
         // if true
         if(Array.isArray(inputArray[i])){
             // just call it again
-            steamrollArray(inputArray[i])
+            let innerArray = steamrollArray(inputArray[i])
+            newArray = newArray.concat(innerArray)
         }
         else {
             newArray.push(inputArray[i]);
