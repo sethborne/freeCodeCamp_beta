@@ -2,7 +2,7 @@
 
 // Find the sum of all the multiples of 3 or 5 below the provided parameter value number.
 
-function euler1(number) {
+function multiplesOf3and5(number) {
     // Good luck!
     let sum = 0;
     for(let i = 0; i < number; i += 1){
@@ -13,6 +13,6 @@ function euler1(number) {
     return sum;
 }
 
-console.log(euler1(1000));
-console.log(euler1(49));
-console.log(euler1(19564));
+console.log(multiplesOf3and5(1000));
+console.log(multiplesOf3and5(49));
+console.log(multiplesOf3and5(19564));
