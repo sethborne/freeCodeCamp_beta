@@ -3,7 +3,7 @@
 // Normally stacks don't have this, but we've added a print helper method that console logs the collection.
 
 function Stack() { 
-    var collection = [];
+    collection = [];
     this.print = function() {
         console.log(collection);
     };
